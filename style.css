@@ -14,14 +14,3 @@
         font-family: "Noto Serif", serif;
     }
 }
-
-.deals-img-1{
-    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('./assets/deal-bloom.png') ;
-}
-
-.deals-img-2{
-    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('./assets/deal-zabo.png') ;
-}
-.deals-img-3{
-    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('./assets/deal-ana.png') ;
-}
