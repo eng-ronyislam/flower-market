@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>flower-market</title>
     <!-- Tailwindcss cdn -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -15,13 +15,33 @@
       referrerpolicy="no-referrer"
     />
     <!-- link-css -->
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body class="font-inter">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="font-inter">
     <!-- header section -->
     <header>
-        
+      <!-- navbar -->
+      <nav class="max-w-[360px] md:max-w-6xl mx-auto flex items-center justify-between pt-7 px-3">
+        <img src="./assets/logo.png" class="w-16 md:w-32 " alt="flower-market" />
+        <div class="flex gap-12">
+          <div class="md:block hidden">
+            <ul class=" flex gap-12" >
+            <li><a href="" class="font-bold text-[#252432]">Home</a></li>
+            <li><a href="" class="text-[#8987A1] ">Shop</a></li>
+            <li><a href="" class="text-[#8987A1] ">About us </a></li>
+          </ul>
+          </div>
+          <p><i class="fa-solid fa-cart-shopping mr-2.5"></i>Cart ($56)</p>
+        </div>
+      </nav>
+      <!-- banner section -->
+      <section class="md:max-w-6xl mx-auto mt-7 md:my-28 md:flex md:flex-row-reverse md:items-end">
+        <img src="./assets/hero-flower.png" class="w-full md:w-1/2" alt="hero-flower">
+        <div class="mt-7 max-w-[360px] md:max-w-1/2 mx-auto px-3 space-y-1">
+            <h1 class="font-noto font-bold text-2xl md:text-6xl ">ALWAYS <span class="text-[#E95A08]">FRESH<br>FLOWERS</span></h1>
+            <p class="text-[#00000080] md:text-2xl ">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+        </div>
+      </section>
     </header>
     <!-- main section -->
     <main>
@@ -29,7 +49,7 @@
     </main>
     <!-- footer section -->
     <footer>
-
+        
     </footer>
-</body>
+  </body>
 </html>
