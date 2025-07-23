@@ -268,9 +268,17 @@
             variety of fresh.
           </p>
         </div>
-        <div class="grid md:grid-cols-3 grid-rows-2 gap-5 my-10  md:my-28">
+        <div class="grid md:grid-cols-3 grid-rows-2 gap-5 my-10 md:my-28">
           <div
-            class="w-full h-48 rounded-lg flex flex-col items-center justify-center gap-1" style="background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('./assets/deal-bloom.png') ;"
+            class="w-full h-48 rounded-lg flex flex-col items-center justify-center gap-1"
+            style="
+              background-image: linear-gradient(
+                  0deg,
+                  rgba(0, 0, 0, 0.6) 0%,
+                  rgba(0, 0, 0, 0.6) 100%
+                ),
+                url('./assets/deal-bloom.png');
+            "
           >
             <h4 class="text-white text-xl font-bold font-noto">
               60% Off | Bloom Plant
@@ -278,8 +286,15 @@
             <button class="text-white underline font-semibold">Shop Now</button>
           </div>
           <div
-            class="md:col-span-2 md:row-span-2 w-full h-auto rounded-lg  flex flex-col items-center justify-center gap-1" 
-            style="background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('./assets/deal-zabo.png') ;"
+            class="md:col-span-2 md:row-span-2 w-full h-auto rounded-lg flex flex-col items-center justify-center gap-1"
+            style="
+              background-image: linear-gradient(
+                  0deg,
+                  rgba(0, 0, 0, 0.6) 0%,
+                  rgba(0, 0, 0, 0.6) 100%
+                ),
+                url('./assets/deal-zabo.png');
+            "
           >
             <h4 class="text-white text-xl font-bold font-noto">
               60% Off | Bloom Plant
@@ -288,7 +303,14 @@
           </div>
           <div
             class="w-full h-48 rounded-lg flex flex-col items-center justify-center gap-1"
-            style="background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url('./assets/deal-ana.png') ;"
+            style="
+              background-image: linear-gradient(
+                  0deg,
+                  rgba(0, 0, 0, 0.6) 0%,
+                  rgba(0, 0, 0, 0.6) 100%
+                ),
+                url('./assets/deal-ana.png');
+            "
           >
             <h4 class="text-white text-xl font-bold font-noto">
               60% Off | Bloom Plant
@@ -298,17 +320,65 @@
         </div>
       </section>
       <!-- Join the colorful Bunch section -->
-      <section class=" bg-[url(./assets/news-letter-bg.png)] w-full h-56 md:h-[500px] bg-center bg-cover flex flex-col justify-center items-center gap-6">
-        <h2 class="font-noto text-white text-xl md:text-5xl font-bold" >Join the colorful Bunch</h2>
+      <section
+        class="bg-[url(./assets/news-letter-bg.png)] w-full h-56 md:h-[500px] bg-center bg-cover flex flex-col justify-center items-center gap-6"
+      >
+        <h2 class="font-noto text-white text-xl md:text-5xl font-bold">
+          Join the colorful Bunch
+        </h2>
         <form action="" class="flex w-5/6">
-            <input type="email" name="" id="" placeholder="Write email" class="bg-white py-4 px-5 w-full">
-            <button class="text-white font-semibold bg-[#E95A08]  py-4 px-2 md:px-10 ">
-                Subscribe
-              </button>
-        </form> 
+          <input
+            type="email"
+            name=""
+            id=""
+            placeholder="Write email"
+            class="bg-white py-4 px-5 w-full"
+          />
+          <button
+            class="text-white font-semibold bg-[#E95A08] py-4 px-2 md:px-10"
+          >
+            Subscribe
+          </button>
+        </form>
       </section>
     </main>
     <!-- footer section -->
-    <footer></footer>
+    <footer
+      class="max-w-[360px] md:max-w-6xl mx-auto px-3 py-12 space-y-5 md:flex justify-between"
+    >
+      <div class="space-y-4">
+        <img src="./assets/logo.png" alt="flower-market" class="w-44" />
+        <p class="text-[#00000080] text-2xl max-w-96">
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop.
+        </p>
+      </div>
+      <div>
+        <ul class="text-[#6B7280] space-y-8">
+          <li><a href="">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="text-[#6B7280] space-y-8">
+          <li><a href="">Features</a></li>
+          <li><a href="">Pricing</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Terms of Service</a></li>
+          <li><a href="">Help Center</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="flex items-center gap-5 ">
+        <a href=""><img src="./assets/icon-linkedin.png" alt=""></a>
+        <a href=""><img src="./assets/icon-twitter.png" alt=""></a>
+        <a href=""><img src="./assets/icon-facebook.png" alt=""></a>
+        <a href=""><img src="./assets/icon-youtube.png" alt=""></a>
+      </div>
+      </div>
+    </footer>
   </body>
 </html>
